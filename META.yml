@@ -24,5 +24,5 @@ requires:
   Software::License::GPL_3: 0
   parent: 0
 resources:
-  repository: http://github.com/rjbs/software-license
+  repository: http://github.com/xenoterracide/software-license-gpl3-artistic20
 version: 0.01
