@@ -1,6 +1,6 @@
 package Software::License::GPL_3_Artistic_2_0;
 BEGIN {
-  $Software::License::GPL_3_Artistic_2_0::VERSION = '0.01';
+  $Software::License::GPL_3_Artistic_2_0::VERSION = '0.02';
 }
 use strict;
 use warnings;
@@ -40,7 +40,7 @@ Software::License::GPL_3_Artistic_2_0 - GPL 3 and Artistic 2.0 Dual License
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

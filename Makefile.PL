@@ -26,9 +26,9 @@ my %WriteMakefileArgs = (
                                              'File::Temp' => '0',
                                              'Carp' => '0'
                                            },
-                       'ABSTRACT' => 'GPL 3 and Artistic 2.0',
+                       'ABSTRACT' => 'GPL 3 and Artistic 2.0 Dual License',
                        'EXE_FILES' => [],
-                       'VERSION' => '0.01',
+                       'VERSION' => '0.02',
                        'PREREQ_PM' => {
                                         'Software::License::Artistic_2_0' => '0',
                                         'Software::License::GPL_3' => '0',

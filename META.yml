@@ -1,5 +1,5 @@
 ---
-abstract: 'GPL 3 and Artistic 2.0'
+abstract: 'GPL 3 and Artistic 2.0 Dual License'
 author:
   - 'Caleb Cushing <xenoterracide@gmail.com>'
 build_requires:
@@ -25,4 +25,4 @@ requires:
   parent: 0
 resources:
   repository: http://github.com/xenoterracide/software-license-gpl3-artistic20
-version: 0.01
+version: 0.02

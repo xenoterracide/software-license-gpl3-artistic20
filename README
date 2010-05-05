@@ -3,7 +3,7 @@ NAME
     License
 
 VERSION
-    version 0.01
+    version 0.02
 
 SYNOPSIS
       my $license = Software::License::GPL_3_Artistic_2_0->new({
