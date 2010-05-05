@@ -1,0 +1,23 @@
+NAME
+    Software::License::GPL_3_Artistic_2_0 - GPL 3 and Artistic 2.0
+
+VERSION
+    version 0.01
+
+SYNOPSIS
+      my $license = Software::License::GPL_3_Artistic_2_0->new({
+        holder => 'Caleb Cushing',
+      });
+
+      open (my $license_file, '>', 'LICENSE') or die $!;
+      print $license_file $license->fulltext;
+
+AUTHOR
+      Caleb Cushing <xenoterracide@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2010 by Caleb Cushing.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
