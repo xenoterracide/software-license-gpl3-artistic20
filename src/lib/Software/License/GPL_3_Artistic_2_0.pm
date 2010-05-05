@@ -1,20 +1,14 @@
+package Software::License::GPL_3_Artistic_2_0;
 use strict;
 use warnings;
-package Software::License::Perl_5;
-use base 'Software::License';
+use parent 'Software::License';
 
-=head1 NAME
-
-Software::License::GPL_3_Artistic_2_0 - GPL 3 and Artistic 2.0
-
-=cut
-
-require Software::License::GPL_3;
-require Software::License::Artistic_2_0;
+use Software::License::GPL_3;
+use Software::License::Artistic_2_0;
 
 sub name { 'GNU GPLv3 and Artistic 2.0' }
 sub url  { 'http://www.gnu.org/licenses/gpl-3.0.txt http://www.perlfoundation.org/artistic_license_2_0' }
-sub meta_name { 'perl' }
+sub meta_name { 'gpl3artistic2' }
 
 sub _gpl {
   my ($self) = @_;
@@ -33,8 +27,21 @@ sub _tal {
 }
 
 1;
+__END__
+# ABSTRACT: GPL 3 and Artistic 2.0
+=head1 SYNOPSIS
+
+  my $license = Software::License::GPL_3_Artistic_2_0->new({
+    holder => 'Caleb Cushing',
+  });
+
+  open (my $license_file, '>', 'LICENSE') or die $!;
+  print $license_file $license->fulltext;
+=cut
+
 __DATA__
 __NOTICE__
+
 This software is copyright (c) {{$self->year}} by {{$self->holder}}.
 
 This is free software; you can redistribute it and/or modify it under
