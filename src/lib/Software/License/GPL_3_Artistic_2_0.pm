@@ -28,7 +28,7 @@ sub _tal {
 
 1;
 __END__
-# ABSTRACT: GPL 3 and Artistic 2.0
+# ABSTRACT: GPL 3 and Artistic 2.0 Dual License
 =head1 SYNOPSIS
 
   my $license = Software::License::GPL_3_Artistic_2_0->new({
@@ -37,6 +37,13 @@ __END__
 
   open (my $license_file, '>', 'LICENSE') or die $!;
   print $license_file $license->fulltext;
+
+=head1 DESCRIPTION
+
+This package provides a Dual Licence for GPLv3 and Artistic 2.0. Written
+Because as of yet Software::License (and Dist::Zilla )  doesn't provide a way
+to multilicense
+
 =cut
 
 __DATA__

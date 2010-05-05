@@ -36,7 +36,7 @@ sub _tal {
 
 =head1 NAME
 
-Software::License::GPL_3_Artistic_2_0 - GPL 3 and Artistic 2.0
+Software::License::GPL_3_Artistic_2_0 - GPL 3 and Artistic 2.0 Dual License
 
 =head1 VERSION
 
@@ -50,6 +50,12 @@ version 0.01
 
   open (my $license_file, '>', 'LICENSE') or die $!;
   print $license_file $license->fulltext;
+
+=head1 DESCRIPTION
+
+This package provides a Dual Licence for GPLv3 and Artistic 2.0. Written
+Because as of yet Software::License (and Dist::Zilla )  doesn't provide a way
+to multilicense
 
 =head1 AUTHOR
 
@@ -66,7 +72,7 @@ the same terms as the Perl 5 programming language system itself.
 
 
 __END__
-# ABSTRACT: GPL 3 and Artistic 2.0
+# ABSTRACT: GPL 3 and Artistic 2.0 Dual License
 
 __DATA__
 __NOTICE__
