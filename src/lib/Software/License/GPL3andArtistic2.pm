@@ -1,4 +1,4 @@
-package Software::License::GPL_3_Artistic_2_0;
+package Software::License::GPL3andArtistic2;
 use strict;
 use warnings;
 use parent 'Software::License';

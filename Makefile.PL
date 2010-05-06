@@ -9,34 +9,34 @@ use ExtUtils::MakeMaker 6.31;
 
 
 my %WriteMakefileArgs = (
-                       'test' => {
-                                   'TESTS' => 't/*.t'
-                                 },
-                       'NAME' => 'Software::License::GPL_3_Artistic_2_0',
-                       'DISTNAME' => 'Software-License-GPL_3_Artistic_2_0',
-                       'CONFIGURE_REQUIRES' => {
-                                                 'ExtUtils::MakeMaker' => '6.31'
-                                               },
-                       'AUTHOR' => 'Caleb Cushing <xenoterracide@gmail.com>',
-                       'BUILD_REQUIRES' => {
-                                             'Scalar::Util' => '0',
-                                             'perl' => '5.004',
-                                             'Test::More' => '0.88',
-                                             'File::Find' => '0',
-                                             'File::Temp' => '0',
-                                             'Carp' => '0'
-                                           },
-                       'ABSTRACT' => 'GPL 3 and Artistic 2.0 Dual License',
-                       'EXE_FILES' => [],
-                       'VERSION' => '0.02',
-                       'PREREQ_PM' => {
-                                        'Software::License::Artistic_2_0' => '0',
-                                        'Software::License::GPL_3' => '0',
-                                        'parent' => '0',
-                                        'Software::License' => '0'
-                                      },
-                       'LICENSE' => 'perl'
-                     );
+  'ABSTRACT' => 'GPL 3 and Artistic 2.0 Dual License',
+  'AUTHOR' => 'Caleb Cushing <xenoterracide@gmail.com>',
+  'BUILD_REQUIRES' => {
+    'Carp' => '0',
+    'File::Find' => '0',
+    'File::Temp' => '0',
+    'Scalar::Util' => '0',
+    'Test::More' => '0.88',
+    'perl' => '5.004'
+  },
+  'CONFIGURE_REQUIRES' => {
+    'ExtUtils::MakeMaker' => '6.31'
+  },
+  'DISTNAME' => 'Software-License-GPL3andArtistic2',
+  'EXE_FILES' => [],
+  'LICENSE' => 'perl',
+  'NAME' => 'Software::License::GPL3andArtistic2',
+  'PREREQ_PM' => {
+    'Software::License' => '0',
+    'Software::License::Artistic_2_0' => '0',
+    'Software::License::GPL_3' => '0',
+    'parent' => '0'
+  },
+  'VERSION' => '0.03',
+  'test' => {
+    'TESTS' => 't/*.t'
+  }
+);
 
 
 unless ( eval { ExtUtils::MakeMaker->VERSION(6.56) } ) {

@@ -1,4 +1,6 @@
 {{$NEXT}}
-correct metadata
-add description
-add changes
+	rename because _ means dev release
+0.02      May 05 2010
+	correct metadata
+	add description
+	add changes

@@ -4,7 +4,7 @@ MANIFEST
 META.yml
 Makefile.PL
 README
-lib/Software/License/GPL_3_Artistic_2_0.pm
+lib/Software/License/GPL3andArtistic2.pm
 t/00-compile.t
 t/000-report-versions.t
 t/release-minimum-version.t

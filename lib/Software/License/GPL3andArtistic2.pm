@@ -1,6 +1,6 @@
-package Software::License::GPL_3_Artistic_2_0;
+package Software::License::GPL3andArtistic2;
 BEGIN {
-  $Software::License::GPL_3_Artistic_2_0::VERSION = '0.02';
+  $Software::License::GPL3andArtistic2::VERSION = '0.03';
 }
 use strict;
 use warnings;
@@ -36,11 +36,11 @@ sub _tal {
 
 =head1 NAME
 
-Software::License::GPL_3_Artistic_2_0 - GPL 3 and Artistic 2.0 Dual License
+Software::License::GPL3andArtistic2 - GPL 3 and Artistic 2.0 Dual License
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

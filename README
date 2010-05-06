@@ -1,9 +1,9 @@
 NAME
-    Software::License::GPL_3_Artistic_2_0 - GPL 3 and Artistic 2.0 Dual
+    Software::License::GPL3andArtistic2 - GPL 3 and Artistic 2.0 Dual
     License
 
 VERSION
-    version 0.02
+    version 0.03
 
 SYNOPSIS
       my $license = Software::License::GPL_3_Artistic_2_0->new({
