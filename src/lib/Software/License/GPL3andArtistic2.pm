@@ -27,7 +27,6 @@ sub _tal {
 }
 
 1;
-__END__
 # ABSTRACT: GPL 3 and Artistic 2.0 Dual License
 =head1 SYNOPSIS
 

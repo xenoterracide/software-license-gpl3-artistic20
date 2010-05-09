@@ -1,6 +1,6 @@
 package Software::License::GPL3andArtistic2;
 BEGIN {
-  $Software::License::GPL3andArtistic2::VERSION = '0.03';
+  $Software::License::GPL3andArtistic2::VERSION = '0.04';
 }
 use strict;
 use warnings;
@@ -30,6 +30,8 @@ sub _tal {
 }
 
 1;
+# ABSTRACT: GPL 3 and Artistic 2.0 Dual License
+
 
 
 =pod
@@ -40,7 +42,7 @@ Software::License::GPL3andArtistic2 - GPL 3 and Artistic 2.0 Dual License
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -70,9 +72,6 @@ the same terms as the Perl 5 programming language system itself.
 
 =cut
 
-
-__END__
-# ABSTRACT: GPL 3 and Artistic 2.0 Dual License
 
 __DATA__
 __NOTICE__

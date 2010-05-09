@@ -1,4 +1,6 @@
-0.03      May 06 2010
+0.04      May 09 2010
+	remove __END__ I think it's causing an issue
+0.03      May 09 2010
 	rename because _ means dev release
 0.02      May 05 2010
 	correct metadata
