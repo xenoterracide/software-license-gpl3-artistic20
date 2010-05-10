@@ -30,7 +30,9 @@ sub _tal {
 # ABSTRACT: GPL 3 and Artistic 2.0 Dual License
 =head1 SYNOPSIS
 
-  my $license = Software::License::GPL_3_Artistic_2_0->new({
+  use Software::License::GPL3andArtistic2;
+
+  my $license = Software::License::GPL3andArtistic2->new({
     holder => 'Caleb Cushing',
   });
 

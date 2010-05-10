@@ -25,4 +25,4 @@ requires:
   parent: 0
 resources:
   repository: http://github.com/xenoterracide/software-license-gpl3-artistic20
-version: 0.04
+version: 0.05

@@ -3,10 +3,12 @@ NAME
     License
 
 VERSION
-    version 0.04
+    version 0.05
 
 SYNOPSIS
-      my $license = Software::License::GPL_3_Artistic_2_0->new({
+      use Software::License::GPL3andArtistic2;
+
+      my $license = Software::License::GPL3andArtistic2->new({
         holder => 'Caleb Cushing',
       });
 

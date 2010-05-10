@@ -1,6 +1,6 @@
 package Software::License::GPL3andArtistic2;
 BEGIN {
-  $Software::License::GPL3andArtistic2::VERSION = '0.04';
+  $Software::License::GPL3andArtistic2::VERSION = '0.05';
 }
 use strict;
 use warnings;
@@ -42,11 +42,13 @@ Software::License::GPL3andArtistic2 - GPL 3 and Artistic 2.0 Dual License
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 SYNOPSIS
 
-  my $license = Software::License::GPL_3_Artistic_2_0->new({
+  use Software::License::GPL3andArtistic2;
+
+  my $license = Software::License::GPL3andArtistic2->new({
     holder => 'Caleb Cushing',
   });
 
