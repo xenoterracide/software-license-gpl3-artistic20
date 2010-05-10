@@ -3,7 +3,7 @@ NAME
     License
 
 VERSION
-    version 0.05
+    version 0.06
 
 SYNOPSIS
       use Software::License::GPL3andArtistic2;

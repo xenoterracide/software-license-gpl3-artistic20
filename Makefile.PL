@@ -32,7 +32,7 @@ my %WriteMakefileArgs = (
     'Software::License::GPL_3' => '0',
     'parent' => '0'
   },
-  'VERSION' => '0.05',
+  'VERSION' => '0.06',
   'test' => {
     'TESTS' => 't/*.t'
   }
