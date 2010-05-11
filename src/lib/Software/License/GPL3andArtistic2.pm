@@ -39,6 +39,41 @@ sub _tal {
   open (my $license_file, '>', 'LICENSE') or die $!;
   print $license_file $license->fulltext;
 
+=head1 NOTICE
+
+This license is probably not needed (IANAL). Artistic 2.0 Licensed Code can be
+used in GPL 3 Code and even Re-Licensed as it. In this L<http://bit.ly/dfBgPn>
+interview on L<http://www.theperlreview.com> Allison Randal states (full URI
+below)
+
+=over 4
+
+I<Two concepts were added in the Artistic 2.0: relicensing and patent
+protection. The relicensing section 4(c)(ii) means that projects no longer need
+to dual-license with the GPL, because the Artistic License itself allows
+redistribution of the code under the GPL (or any "copyleft" license). The
+patent protection language was added in response to the increased patent
+litigation and threats of patent litigation against open source software in the
+past few years.>
+
+=back
+
+and
+
+=over 4
+
+I<Artistic 2.0 is compatible with the GPL version 2 and version 3. This
+is an improvement over Artistic 1.0, which the FSF never considered compatible
+with the GPL. Artistic 2.0 code may also be redistributed under the LGPL, MPL
+or any pure "copyleft" license.>
+
+=back
+
+so this module is probably not necessary unless you know something else
+
+interview URI for the paranoid
+L<http://www.theperlreview.com/Interviews/allison-randal-artistic-license.html>
+
 =head1 DESCRIPTION
 
 This package provides a Dual Licence for GPLv3 and Artistic 2.0. Written
