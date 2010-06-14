@@ -41,10 +41,10 @@ sub _tal {
 
 =head1 NOTICE
 
-This license is probably not needed (IANAL). Artistic 2.0 Licensed Code can be
-used in GPL 3 Code and even Re-Licensed as it. In this L<http://bit.ly/dfBgPn>
-interview on L<http://www.theperlreview.com> Allison Randal states (full URI
-below)
+This license is probably not needed (IANAL) and unmaintained because the
+Artistic 2.0 Licensed Code can be used in GPL 3 Code and even Re-Licensed as
+it. In this L<http://bit.ly/dfBgPn> interview on
+L<http://www.theperlreview.com> Allison Randal states (full URI below)
 
 =over 4
 
