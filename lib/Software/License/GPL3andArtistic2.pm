@@ -8,7 +8,7 @@ use Software::License::Artistic_2_0;
 
 sub name { 'GNU GPLv3 and Artistic 2.0' }
 sub url  { 'http://www.gnu.org/licenses/gpl-3.0.txt http://www.perlfoundation.org/artistic_license_2_0' }
-sub meta_name { 'gpl3artistic2' }
+sub meta_name { 'open_source' }
 
 sub _gpl {
   my ($self) = @_;
