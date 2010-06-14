@@ -6,10 +6,10 @@ VERSION
     version 0.06
 
 NOTICE
-    This license is probably not needed (IANAL). Artistic 2.0 Licensed Code
-    can be used in GPL 3 Code and even Re-Licensed as it. In this
-    <http://bit.ly/dfBgPn> interview on <http://www.theperlreview.com>
-    Allison Randal states (full URI below)
+    This license is probably not needed (IANAL) and unmaintained because the
+    Artistic 2.0 Licensed Code can be used in GPL 3 Code and even
+    Re-Licensed as it. In this <http://bit.ly/dfBgPn> interview on
+    <http://www.theperlreview.com> Allison Randal states (full URI below)
 
         *Two concepts were added in the Artistic 2.0: relicensing and patent
         protection. The relicensing section 4(c)(ii) means that projects no
